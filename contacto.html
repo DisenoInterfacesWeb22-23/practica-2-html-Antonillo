@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academia de estudios ESO, bachiller, formación profesional y universiartios">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/logo/site.webmanifest">
+    <link rel="mask-icon" href="./assets/images/logo/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Academia DIW</title>
+</head>
+<body>
+    <header><a href="./index.html"><img src="./assets/images/logo/logo.jpg" alt="logo"></a><h1>Academia DIW</h1></header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">INICIO</a></li>
+            <li><a href="./servicios.html">SERVICIOS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" placeholder="Jhon" id="nombre" maxlength="30" size="32" pattern="^[a-zA-Z0-9_.-]*$" autofocus required>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="email@ejemplo.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" placeholder="18-99" min="18" max="99" size="2" required>
+            <label for="telefono">Teléfono</label>
+            <input type="text" name="telefono" id="telefono" placeholder="965123456" maxlength="9" size="9" required>
+            <label for="consulta">Consulta</label>
+            <textarea style="resize: none;" name="consuulta" placeholder="Su conssulta aquí" id="consulta" cols="30" rows="10" required></textarea>
+            <input type="checkbox" name="checkbox" id="checkbox" required>
+            <label for="checkbox">Acepta nuestra política de privacidad y cookies</label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h1>Contacta con nosotros</h1>
+        <p>Calle San Juan Bautissta 7, Bajo</p>
+        <p>Teléfono de contacto: <a href="tel:965 123 456">965 123 456</a></p>
+    </section>
+    <footer>
+        <span><h2>&copy; 2022 Academia DIW</h2></span>
+        <span><a href="./privacidad.html">Politica de privacidad</a> y <a href="./cookies.html">cookies</a></span>
+        <img src="./assets/images/mapa.png" width="450" alt="mapa">
+        <a href="#" title="WhatsApp"><img src="./assets/images/WhatsApp.svg" width="40" alt="WhatsApp"></a>
+        <a href="#" title="Twitter"><img src="./assets/images/Twitter.svg" width="40" alt="Twitter"></a>
+        <a href="#" title="Facebook"><img src="./assets/images/Facebook.svg" width="40" alt="Facebook"></a>
+    </footer>
+</body>
+</html>
